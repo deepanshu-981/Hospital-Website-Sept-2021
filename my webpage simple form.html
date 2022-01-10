@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Webpage by Deepanshu</title>
+    <style>
+
+.ff{
+          
+          float: left;
+          width: 35%;
+          margin:  auto;
+          background-color: rgb(206, 240, 245);
+          border: 3px solid rgb(214, 57, 57);
+          text-align: center; padding: 20px; width: 75%; 
+      }
+      .s{background-color: rgb(214, 240, 248); 
+        border-radius: 10px;
+      }
+      .s:hover{
+          background-color: rgb(231, 85, 85);
+      }
+      .nnn{background-color: black;
+      border-radius: 10px;}
+      .nnn ul{overflow: auto;}
+      .nnn li{
+        
+          float: left;
+          padding: 4px 4px;
+          list-style: none;
+      
+      }
+      .nnn li a{
+         
+          color: white;
+      }
+      .nnn li a:hover{background-color: rgb(135, 6, 240);}
+       body{background-image: url("ans.jpg");
+       background-position: center center;}
+
+
+    </style>
+</head>
+<body  >
+   <div> 
+        <nav class="nnn">
+            <ul>
+                <li><a href="http://www.google.com" target="_blank">Google</a></li>
+                <li><a href="http://www.facebook.com" target="_blank">Facebook</a></li>
+                <li><a href="http://www.twitter.com" target="_blank">Twitter</a></li>
+                <li><a href="http://www.amazon.com" target="_blank">Amazon</a></li>
+                <li style="float: right;"><input type="text" placeholder="Search"></li>
+            </ul>
+        </nav>
+  
+    </div>
+ <div style=" height: 400px; width: 530px; text-align: center;  margin: auto;"> 
+
+     
+        <div class="ff" >
+            <form action="backend.php">
+                   Name : <input type="text" " ><br>
+        Email Id :  <input type="email"><br><br>
+        Gender : M<input type="radio" name="x">
+        F<input type="radio" name="x"><br><br>
+        Write Something about yourself :<br><textarea rows="5" cols="33"></textarea><br>
+        What is your <strong>Age</strong>  ?
+        <input type="number"><br><br>
+        
+       <div> <input type="submit" value="SUBMIT" class="s">
+     <input type="reset" class="s" value="RESET">
+     
+    </div></form>
+</div>
+
+</body>
+</html>
